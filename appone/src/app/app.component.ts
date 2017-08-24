@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import {Hero} from './hero-detail/hero';
+import {HeroDetailComponent} from './hero-detail/hero-detail.component';
 // implement external template for tomorrow
 @Component({
   selector: 'app-root',
