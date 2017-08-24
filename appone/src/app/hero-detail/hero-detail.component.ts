@@ -8,7 +8,7 @@ import {Hero} from './hero';
 export class HeroDetailComponent{
 
  // constructor() { }
-
+hero: Hero;
  
 
 
