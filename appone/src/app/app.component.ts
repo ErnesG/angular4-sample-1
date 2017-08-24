@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Hero} from './hero-detail/hero';
 // implement external template for tomorrow
 @Component({
   selector: 'app-root',
@@ -26,7 +27,4 @@ const HEROES: Hero[] =[
   { id: 19, name: 'Magma' },
   { id: 20, name: 'Tornado' }
 ];
-export class Hero {
-  id: number;
-  name: string;
-}
+
