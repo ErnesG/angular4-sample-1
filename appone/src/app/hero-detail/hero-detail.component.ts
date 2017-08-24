@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import {Hero} from './hero';
 @Component({
   selector: 'app-hero-detail',
@@ -8,7 +8,7 @@ import {Hero} from './hero';
 export class HeroDetailComponent{
 
  // constructor() { }
-hero: Hero;
+@Input() hero: Hero;
  
 
 
